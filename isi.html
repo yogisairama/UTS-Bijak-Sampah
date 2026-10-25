@@ -7,10 +7,20 @@
 
             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            html {
+                scroll-behavior: smooth; 
+                scroll-padding-top: 50px; 
+            }
+
             body {
                 font-family: "Poppins", sans-serif;
                 color: white;
-                margin: 0;
             }
             /*style untuk halaman 1*/
             .section1 {
@@ -42,68 +52,193 @@
                 top: 0;
                 z-index: 999;
                 background-color: white;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
             }
 
             .nav-bar {
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 gap: 100px;
-                border-bottom: 1px solid black;
-                padding: 20px;
+                padding: 5px;
 
+            }
+
+            .logo {
+                object-fit: contain;
+                width: auto;
+                height: 60px;
             }
 
             /*style untuk halaman 2*/
             .section2 {
-                background-color: white;
                 min-height: 100vh;
             }
 
             .judul2 {
                 color: black;
-                max-width: 450px;
-                padding-top: 40px;
-                padding-left: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 500px;
+                padding: 40px 60px;
+            }
+
+            .judul2 h2 {
+                font-size: 30px;
             }
 
             .judul2 p {
-                padding-bottom: 40px;
+                max-width: 450px;
+                text-align: right;
+                padding-top: 40px;
+                
             }
 
             .materi1 {
                 color: black;
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                text-align: center;
+                align-items: stretch;
                 gap: 40px;
                 padding-left: 60px;
                 padding-right: 60px;
+                font-size: 14px;
             }
 
             .materi1 h3 {
                 text-align: left;
-                margin-bottom: 10px;
+        
             }
 
             .materi1 p {
                 text-align: justify;
                 line-height: 1.5;
+                max-height: 1200px;
             }
 
             .organik, .anorganik, .b3, .residu {
-                max-width: 450px;
+                flex: 1;
+                text-align: center;
                 border-radius: 10px;
+                padding: 25px 20px;
+            }
+
+            .materi1 i{
+                font-size: 30px;
+                padding-bottom: 30px;
+            }
+
+            .gambar-sampah {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+            }
+
+            .gambar-sampah img {
+                width: 300px;
+                height: 250px;
+                object-fit: cover;
+                margin-bottom: 20px;
+
+            }
+
+
+            /*style untuk halaman 3*/
+
+            .section3 {
+                color: black;
+                padding: 100px 60px 0 60px;
+                background-color: #d9dbd1;
+            }
+
+            .halaman-atas {
+                display: flex;
+                justify-content: space-between;
+                gap: 50px;
+            }
+            .kiri, .tengah, .kanan {
+                color: black;
+                flex: 1;
+            }
+
+            .tengah img {
+                width: 450px;
+                border-radius: 10px;
+            }
+
+            .border-kanan {
+                display: flex;
+                gap: 20px;
                 padding: 10px;
+
+            }
+
+            .deskripsi1 {
+                max-width: 300px;
+            }
+            
+            .border-kanan img {
+                width: 200px;
+                height: 200px;
+                border-radius: 10px;
+            }
+
+            .dampak {
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+            }
+
+
+            .dampak1, .dampak2, .dampak3, .dampak4 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: white;
+                margin-bottom: 20px;
+                width: 300px;
+                height: 350px;
+                padding: 10px;
+            }
+
+
+            .dampak1 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(banjir2.jpg);
+                border-radius: 10px;
+            }
+
+            .dampak2 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Covid.jpg);
+                border-radius: 10px;
+            }
+
+            .dampak3 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pencemaran\ tanah.jpg);
+                border-radius: 10px;
+            }
+
+            .dampak4 {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(pencemaran\ air.jpg);
+                border-radius: 10px;
+            }
+
+            .halaman-bawah h3 {
+                text-align: center;
+                padding-top: 35px;
+                padding-bottom: 35px;
             }
         </style>
     </head>
     <body>
         <header class="site-bar">
             <nav aria-label="Navigasi utama" class="nav-bar">
-                <a href="#halaman1" class="brand">Home</a>
-                <a href="#halaman2">Education</a>
-                <a href="#halaman3">Description</a>
+                <img src="Logo Sampah.png" alt="logo" class="logo">
+                <a href="#halaman1" class="brand">Beranda</a>
+                <a href="#halaman2">Edukasi</a>
+                <a href="#halaman3">Dampak</a>
                 <a href="#halaman4">Desciption</a>
                 <a href="#halaman5">Description</a>
             </nav>
@@ -125,26 +260,75 @@
             </div>
             <div class="materi1">
                 <div class="organik">
+                    <i class="fa-solid fa-leaf"></i>
                     <h3>Sampah Organik</h3>
-                    <p>Description: <br>Material yang mudah membusuk dan terurai secara alami oleh mikroorganisme. Contoh spesifiknya adalah sisa sayuran, kulit buah, tulang hewan, dan daun kering yang dialokasikan untuk pengomposan. Waktu terurai sangat cepat dan bisa terurai sempurna secara alami. Sisa makanan umumnya hancur dalam 2 hingga 6 minggu, sementara material yang lebih keras seperti tulang atau ranting membutuhkan waktu beberapa bulan.</p>
+                    <p>Deskripsi: Material alami yang mudah membusuk. <br><br>Contoh: Sisa makanan, dedaunan, dan tulang (bisa dijadikan kompos).<br><br>Waktu Terurai: Sangat cepat (2-6 minggu untuk sisa makanan, hingga beberapa bulan untuk ranting/tulang).</p>
                 </div>
                 <div class="anorganik">
+                    <i class="fa-solid fa-bottle-water"></i>
                     <h3>Sampah Anorganik</h3>
-                    <p>Description: <br>Material buatan manusia yang sulit terurai namun memiliki nilai ekonomis dan dapat diproses kembali. Contohnya botol plastik, kertas, kardus, dan kaleng, yang harus dikumpulkan dalam keadaan bersih dan kering. Waktu terurai bisa terurai namun membutuhkan waktu yang sangat lama. Plastik membutuhkan waktu 100 hingga 500 tahun, kaleng aluminium sekitar 50 hingga 200 tahun, sementara material kaca bisa memakan waktu jutaan tahun.</p>
+                    <p>Deskripsi: Material buatan manusia yang bernilai ekonomis untuk didaur ulang.<br><br>Contoh: Botol plastik, kertas, dan kaleng (harus bersih dan kering).<br><br>Waktu Terurai: Sangat lama (Plastik 100-500 tahun, kaleng aluminium 50-200 tahun, dan kaca jutaan tahun).</p>
                 </div>
                 <div class="b3">
-                    <h3>Sampah B3 (Bahan Berbayaha dan Beracun)</h3>
-                    <p>Description: <br>Limbah rumah tangga yang mengandung zat kimia berbahaya bagi kesehatan dan lingkungan, seperti baterai bekas, lampu neon, kaleng aerosol pembasmi serangga, dan obat kedaluwarsa. Waktu terurai sebagian besar komponen logam berat dan bahan kimia beracun di dalamnya tidak bisa terurai secara alami. Jika dibuang sembarangan, racun tersebut akan terus menetap dan mencemari tanah serta air tanah selama ratusan tahun.</p>
+                    <i class="fa-solid fa-skull"></i>
+                    <h3>Sampah B3 (Bahan Berbahaya dan Beracun)</h3>
+                    <p>Deskripsi: Limbah yang mengandung zat kimia berbahaya dan beracun.<br><br>Contoh: Baterai bekas, lampu neon, kaleng aerosol, dan obat kedaluwarsa.<br><br>Waktu Terurai: Tidak bisa terurai alami. Racunnya akan menetap dan mencemari lingkungan hingga ratusan tahun.</p>
                 </div>
                 <div class="residu">
+                    <i class="fa-solid fa-recycle"></i>
                     <h3>Sampah Residu</h3>
-                    <p>Description: <br>Sampah sisa yang sangat sulit didaur ulang, kotor, atau belum memiliki teknologi pengolahan massal, seperti popok sekali pakai, pembalut, kapas bekas, puntung rokok, dan kemasan saset multilapis. Waktu terurai sangat sulit dan memakan waktu berabad-abad. Popok sekali pakai dan saset plastik membutuhkan waktu 200 hingga 500 tahun untuk hancur di Tempat Pembuangan Akhir (TPA), dan seringkali hanya terpecah menjadi serpihan mikroplastik abadi yang mencemari lingkungan.</p>
+                    <p>Deskripsi: Sampah sisa kotor yang belum memiliki teknologi pengolahan massal.<br><br>Contoh: Popok, pembalut, puntung rokok, dan kemasan saset.<br><br>Waktu Terurai: Sangat lama (200-500 tahun) dan biasanya hanya terpecah menjadi mikroplastik yang mencemari lingkungan.</p>
                 </div>
+            </div>
+            <div class="gambar-sampah">
+                <img src="organik.jpg" alt="sampah organik">
+                <img src="anorganik.jpg" alt="sampah anorganik">
+                <img src="sampah b3.jpg" alt="sampah b3">
+                <img src="residu.jpeg" alt="sampah residu">
             </div>
         </section>
         <section id="halaman3" class="section3">
-                <h2>judul</h2>
-
+            <div class="halaman-atas">
+                <div class="kiri">
+                    <h2>Dampak Buruk Sampah Tanpa Pengelolaan</h2>
+                    <p>Mengapa kita harus peduli? Mengetahui ancaman nyata bagi lingkungan dan kesehatan jika sampah rumah tangga dibiarkan begitu saja.</p>
+                </div>
+                <div class="tengah">
+                    <img src="banjir.jpg" alt="foto banjir">
+                </div>
+                <div class="kanan">
+                    <div class="border-kanan">
+                        <div class="deskripsi1">
+                            <h3>Apa Penyebab Semua Ini</h3>
+                            <p>Semua dampak buruk ini bisa terjadi jika kita tidak bijak melakukan pengelolaan sampah.</p>
+                        </div>
+                        <div class="foto-border-kanan">
+                            <img src="banjir2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="halaman-bawah">
+                <h3>Dampak Nyata pada Lingkungan & Kesehatan</h3>
+                <div class="dampak">
+                    <div class="dampak1">
+                        <h4>Banjir</h4>
+                        <p>Penyumbatan saluran air dan sungai oleh sampah memicu banjir di pemukiman.</p>
+                    </div>
+                    <div class="dampak2">
+                        <h4>Sarang Penyakit</h4>
+                        <p>Sampah yang membusuk menjadi tempat berkembang biak penyakit (DBD, diare, dll).</p>
+                    </div>
+                    <div class="dampak3">
+                        <h4>Pencemaran Tanah</h4>
+                        <p>Cairan sampah dan bahan kimia beracun meresap, merusak tanah.</p>
+                    </div>
+                    <div class="dampak4">
+                        <h4>Kerusakan Ekosistem</h4>
+                        <p>Sampah yang terbawa ke laut merusak kehidupan laut dan menjadi mikroplastik berbahaya.</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section id="halaman4" class="section4">
 
