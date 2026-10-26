@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --backrgound: #3ea847;
+  --navbar: #2f8e36;
+  --footer: #237028;
+  --text-green: #0a420e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+/*style untuk halaman 1*/
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  padding-left: 70px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/Photos/sampah.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 20px;
+}
+
+.judul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  max-width: 800px;
+  color: white;
+}
+.judul h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.judul p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.site-bar a {
+  text-decoration: none;
+  color: var(--text-green);
+  font-weight: 700;
+}
+
+.site-bar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 5px;
+}
+
+.logo {
+  object-fit: contain;
+  width: auto;
+  height: 60px;
+}
+
+/*style untuk halaman 2*/
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 100vh;
+  color: var(--text-green);
+}
+
+.judul2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+
+.judul2 h2 {
+  font-size: 30px;
+}
+
+.judul2 p {
+  max-width: 450px;
+  text-align: right;
+  padding-top: 40px;
+}
+
+.materi1 {
+  color: var(--text-green);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 14px;
+}
+
+.organik,
+.anorganik,
+.b3,
+.residu {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 25px;
+  padding: 10px;
+  flex: 1;
+}
+
+.fa-bottle-water {
+  color: rgb(46, 170, 170);
+}
+
+.fa-skull {
+  color: rgb(208, 9, 9);
+}
+
+.fa-recycle {
+  color: gray;
+}
+
+#image-sampah {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+#image-sampah img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.organik p,
+.anorganik p,
+.b3 p,
+.residu p {
+  line-height: 1.5;
+  max-height: 1200px;
+}
+
+.organik i,
+.anorganik i,
+.b3 i,
+.residu i {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+/*style untuk halaman 3*/
+.section3 {
+  color: white;
+  padding: 100px 60px 0 60px;
+  background-color: var(--navbar);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.halaman-atas {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.kiri {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.kanan {
+  display: flex;
+  gap: 15px;
+}
+
+.kanan img {
+  width: 350px;
+  height: 150px;
+  object-fit: cover;
+  background-color: white;
+  padding: 5px;
+}
+
+.halaman-bawah {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.dampak {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.dampak1,
+.dampak2,
+.dampak3,
+.dampak4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 350px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.dampak1 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Photos/banjir2.jpg);
+  border-radius: 10px;
+}
+
+.dampak2 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Photos/Covid.jpg);
+  border-radius: 10px;
+}
+
+.dampak3 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Photos/pencemaran\ tanah.jpg);
+  border-radius: 10px;
+}
+
+.dampak4 {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/Photos/pencemaran\ air.jpg);
+  border-radius: 10px;
+}
+
+.halaman-bawah h3 {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/*Style untuk halaman 4*/
+.section4 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: var(--text-green);
+  padding: 100px 60px 50px 60px;
+}
+
+.atas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kiri1 {
+  max-width: 450px;
+  margin-bottom: 70px;
+}
+
+.kanan2 {
+  display: flex;
+  gap: 10px;
+}
+
+.kanan2 .tutoryt1,
+.kanan2 .tutoryt2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.kanan2 .tutoryt1 img,
+.kanan2 .tutoryt2 img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#deskripsiyt1,
+#deskripsiyt2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#deskripsiyt1 h1,
+#deskripsiyt2 h1 {
+  font-size: 16px;
+}
+
+#deskripsiyt1 a,
+#deskripsiyt2 a {
+  font-size: 15px;
+  background-color: rgb(13, 123, 13);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: 700;
+}
+
+.solusi1,
+.solusi2,
+.solusi3,
+.solusi4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  gap: 20px;
+  height: 250px;
+  padding: 20px;
+}
+
+.solusi1 {
+  background-color: rgb(13, 123, 13);
+  color: white;
+}
+
+.solusi2 {
+  background-color: rgb(187, 187, 7);
+  color: white;
+}
+
+.solusi3 {
+  background-color: rgb(184, 8, 8);
+  color: white;
+}
+
+.solusi4 {
+  background-color: rgb(146, 142, 142);
+  color: white;
+}
+
+.gambar-solusi {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.des-sos1,
+.des-sos2,
+.des-sos3,
+.des-sos4 {
+  max-width: 250px;
+  padding-right: 30px;
+}
+
+.solusi-atas,
+.solusi-bawah {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.bawah h3 {
+  text-align: left;
+  max-width: 400px;
+  margin-top: 40px;
+}
+
+.bawah p {
+  text-align: left;
+  max-width: 400px;
+}
+
+/*Style untuk halaman 5*/
+.section5 {
+  background-color: var(--navbar);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 100px 60px 60px 60px;
+}
+
+.section5 #bagian-atas {
+  display: flex;
+  gap: 15px;
+}
+
+#bagian-atas #deskripsi-atas {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+#bagian-atas img {
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#bagian-bawah {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+#card {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+}
+
+#card-kiri,
+#card-kanan {
+  color: var(--text-green);
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#card-kiri #deskripsi-cardkiri,
+#card-kanan #deskripsi-cardkanan {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+}
+
+#deskripsi-cardkiri h1,
+#deskripsi-cardkanan h1 {
+  font-size: 20px;
+}
+
+#deskripsi-cardkiri p,
+#deskripsi-cardkanan p {
+  font-size: 15px;
+}
+
+#card-kiri #image-cardkiri img,
+#card-kanan #image-cardkanan img {
+  width: 250px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/*Style untuk halaman 6*/
+.section6 {
+  color: white;
+  padding: 100px 60px 50px 60px;
+  background-color: var(--footer);
+}
+
+.card-section6 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.left-card,
+.middle-card,
+.right-card {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 400px;
+}
+Ul {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  list-style-type: none;
+}
+
+#link-referensi {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#link-referensi a {
+  color: white;
+  text-decoration: none;
+}
