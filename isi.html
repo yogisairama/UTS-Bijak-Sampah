@@ -7,6 +7,13 @@
 
             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+            :root {
+                --backrgound: #3ea847;
+                --navbar:  #2f8e36;
+                --footer: #237028;
+                --text-green: #0a420e;
+            }
+
             * {
                 box-sizing: border-box;
                 margin: 0;
@@ -25,8 +32,8 @@
             /*style untuk halaman 1*/
             .section1 {
                 display: flex;
-                align-items: center;
                 justify-content: center;
+                align-items: center;
                 text-align: center;
                 min-height: 100vh;
                 padding-left: 70px;
@@ -39,12 +46,25 @@
 
 
             .judul {
-                max-width: 700px;
+                display: flex;
+                flex-direction: column;
+                gap: 13px;
+                max-width: 800px;
                 color: white;
             }
+            .judul h3 {
+                font-size: 20px;
+                font-weight: 400;
+            } 
+            .judul p {
+                font-size: 15px;
+                font-weight: 200;
+            }
+
             .site-bar a {
                 text-decoration: none;
-                color: black;
+                color: var(--text-green);
+                font-weight: 700;
             }
 
             .site-bar {
@@ -53,6 +73,7 @@
                 z-index: 999;
                 background-color: white;
                 box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
             }
 
             .nav-bar {
@@ -73,10 +94,10 @@
             /*style untuk halaman 2*/
             .section2 {
                 min-height: 100vh;
+                color: var(--text-green);
             }
 
             .judul2 {
-                color: black;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -96,7 +117,7 @@
             }
 
             .materi1 {
-                color: black;
+                color: var(--text-green);
                 display: flex;
                 justify-content: center;
                 align-items: stretch;
@@ -118,7 +139,9 @@
             }
 
             .organik, .anorganik, .b3, .residu {
-                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
                 text-align: center;
                 border-radius: 10px;
                 padding: 25px 20px;
@@ -127,6 +150,18 @@
             .materi1 i{
                 font-size: 30px;
                 padding-bottom: 30px;
+            }
+
+            .anorganik i {
+                color: rgb(46, 170, 170);
+            }
+
+            .b3 i {
+                color: rgb(208, 9, 9);
+            }
+
+            .residu i {
+                color: gray;
             }
 
             .gambar-sampah {
@@ -147,9 +182,9 @@
             /*style untuk halaman 3*/
 
             .section3 {
-                color: black;
+                color: white;
                 padding: 100px 60px 0 60px;
-                background-color: #d9dbd1;
+                background-color: var(--navbar);
             }
 
             .halaman-atas {
@@ -158,7 +193,7 @@
                 gap: 50px;
             }
             .kiri, .tengah, .kanan {
-                color: black;
+                color: white;
                 flex: 1;
             }
 
@@ -234,7 +269,7 @@
             /*Style untuk halaman 4*/
              .section4 {
                 color: black;
-                padding: 100px 60px 0 60px;
+                padding: 100px 60px 50px 60px;
             }
 
             .atas {
@@ -252,55 +287,224 @@
                 margin-bottom: 70px;
             }
 
-            .tutoryt {
+            .kanan2 {
                 display: flex;
-                gap: 30px;
+                gap: 10px;
             }
 
-            .tutor1, .tutor2 {
+            .kanan2 .tutoryt1,
+            .kanan2 .tutoryt2 {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                text-align: center;
-                background-color: #d9dbd1;
-                width: 250px;
-                height: 100px;
+                gap: 20px;
+                background-color: white;
+                padding: 15px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
                 border-radius: 10px;
-
             }
 
-
-            .deskripsi1 {
-                max-width: 300px;
+            .kanan2 .tutoryt1 img,
+            .kanan2 .tutoryt2 img {
+                width: 250px;
+                height: 150px;
+                object-fit: cover;
+                border-radius: 10px;
             }
-            
 
-            .solusi {
+            #deskripsiyt1,
+            #deskripsiyt2 {
                 display: flex;
-                justify-content: space-between;
-                gap: 30px;
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            #deskripsiyt1 h1,
+            #deskripsiyt2 h1 {
+                font-size: 16px;
+            }
+
+            #deskripsiyt1 a,
+            #deskripsiyt2 a {
+                font-size: 15px;
+                background-color: rgb(13, 123, 13);
+                text-decoration: none;
+                padding: 5px;
+                border-radius: 10px;
+                width: 100%;
+                text-align: center;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+                color: white;
+                font-weight: 700
             }
 
 
             .solusi1, .solusi2, .solusi3, .solusi4 {
                 display: flex;
-                flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                text-align: center;
                 flex: 1;
                 color: black;
-                margin-bottom: 20px;
-                width: 300px;
-                height: 350px;
-                padding: 10px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+                border-radius: 15px;
+                gap: 20px;
+                height: 250px;
+                padding: 20px;
             }
- 
+
+            .solusi1 {
+                background-color: rgb(13, 123, 13);
+                color: white;
+            }
+
+            .solusi2 {
+                background-color: rgb(187, 187, 7);
+                color: white;
+            }
+
+            .solusi3 {
+                background-color: rgb(184, 8, 8);
+                color: white;
+            }
+
+            .solusi4 {
+                background-color: rgb(146, 142, 142);
+                color: white;
+            }
+
+            .gambar-solusi {
+                width: 250px;
+                height: 200px;
+                border-radius: 15px;
+            }
+
+            .des-sos1, .des-sos2, .des-sos3, .des-sos4 {
+                max-width: 250px;
+                padding-right: 30px;
+            }
+
+            .solusi-atas, .solusi-bawah {
+                display: flex;
+                gap: 30px;
+                padding-bottom: 16px;
+                padding-top: 16px;
+            }
+
 
             .bawah h3 {
-                text-align: center;
-                padding-top: 35px;
-                padding-bottom: 35px;
+                text-align: left;
+                max-width: 400px;
+                margin-top: 40px;
+            }
+
+            .bawah p {
+                text-align: left;
+                max-width: 400px;
+            }
+
+            /*Style untuk halaman 5*/
+
+            .section5 {
+                background-color: var(--navbar);
+                color: black;
+                display: flex;
+                flex-direction: column;
+                gap: 18px;
+                padding: 100px 60px 10px 60px;
+            }
+
+            .section5 #bagian-atas {
+                display: flex;
+                gap: 15px;
+                
+            }
+
+            #bagian-atas #deskripsi-atas {
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+            }
+
+            #bagian-atas img {
+                width: 600px;
+                height: auto;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+
+            #bagian-bawah {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                text-align: left;
+            }
+
+            #card {
+                display: flex;
+                gap: 15px;
+            }
+
+            #card-kiri,
+            #card-kanan {
+                display: flex;
+                gap: 20px;
+                max-width: 50%;
+                background-color: white;
+                padding: 12px;
+                border-radius: 15px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            #card-kiri #deskripsi-cardkiri,
+            #card-kanan #deskripsi-cardkanan {
+                display: flex;
+                text-align: left;
+                flex-direction: column;
+                padding: 20px;
+                gap: 20px;
+            }
+
+            #deskripsi-cardkiri h1,
+            #deskripsi-cardkanan h1 {
+                font-size: 20px;
+            }
+
+            #deskripsi-cardkiri p,
+            #deskripsi-cardkanan p {
+                font-size: 15px;
+            }
+
+            #card-kiri #image-cardkiri img,
+            #card-kanan #image-cardkanan img {
+                width: 150px;
+                height: 240px;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+
+            /*Style untuk halaman 6*/
+            .section6 {
+                color: black;
+                padding: 100px 60px 50px 60px;
+                background-color: var(--footer);
+            }
+
+            .card-section6 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+            }
+
+            Ul {
+                list-style-type: none;
+            }
+
+            .left-card {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+                max-width: 400px;
             }
 
         </style>
@@ -313,14 +517,15 @@
                 <a href="#halaman2">Edukasi</a>
                 <a href="#halaman3">Dampak</a>
                 <a href="#halaman4">Solusi</a>
-                <a href="#halaman5">Description</a>
+                <a href="#halaman5">Artikel</a>
+                <a href="#halaman6">Tentang</a>
             </nav>
         </header>
 
         <section id="halaman1" class="section1">
             <div class="cover">
                 <div class="judul">
-                    <h1>Kelola Sampahmu, Selamatkan Bumimu</h1>
+                    <h1>Kelola Sampahmu, Selamatkan Bumimu <span><i class="fa-solid fa-earth-americas"></i></span></h1>
                     <h3>Satu sampahmu sangat berdampak bagi lingkungan</h3>
                     <p>Mari mulai perubahan dari rumah dengan mempelajari cara praktis memilah sampah, mengurangi penggunaan plastik, dan mendaur ulang limbah demi menciptakan lingkungan yang lebih bersih dan berkelanjutan.</p>
                 </div>
@@ -410,47 +615,120 @@
                     <p>langkah nyata dan praktis menangani 4 jenis sampah rumah tangga secara mandiri untuk mencegah dampak buruk lingkungan.</p>
                 </div>
                 <div class="kanan2">
-                    <div class="border-kanan1">
-                        <div class="tutor">
-                            <h3>Solusi yang bisa di tawarkan</h3>
-                            <div class="tutoryt">
-                                <div class="tutor1">
-                                    <p>Tutorial Membuat Pot Bunga Jerapah dari galon Bekas</p>
-                                    <a href="https://youtu.be/deR2YjRmOt4?si=fA-NpBXFxnhnpmEI ">Solusi 1</a>
-                                </div>
-                                <div class="tutor2">
-                                    <p>Tutorial Membuat Kotak Pensil Bekas</p>
-                                    <a href="https://youtu.be/MJd3bo_XRaU?si=UUo9CKdXo1-UhaYW">Solusi 2</a>
-                                </div>
-                            </div>
+                    <div class="tutoryt1">
+                        <img src="/LINK pot.png" alt="">
+                        <div id="deskripsiyt1">
+                            <h1>Pot Bunga Dari Botol</h1>
+                            <a href="https://youtu.be/deR2YjRmOt4?si=fA-NpBXFxnhnpmEI">Lihat Panduan</a>
+                        </div>
+                    </div>
+                    <div class="tutoryt2">
+                        <img src="/Link YT citato.jpeg" alt="">
+                        <div id="deskripsiyt2">
+                            <h1>Membuat Kotak Pensil Bekas</h1>
+                            <a href="https://youtu.be/MJd3bo_XRaU?si=UUo9CKdXo1-UhaYW">Lihat Panduan</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="bawah">
                 <h3>Solusi Penanganan 4 Jenis Sampah</h3>
-                <div class="solusi">
+                <p>Beberapa solusi yang dapat di tawarkan untuk menyelesaikan permasalahan yang ada.</p>
+                <div class="solusi-atas">
                     <div class="solusi1">
-                        <h4>Sampah Organik <br>(komposting)</h4>
-                        <p>Olah sisa dapur menjadi pupuk. Pisahkan sisa sayur, kulit buah, dan daun kering untuk dimasukkan ke wadah komposter sederhana</p>
+                        <div class="des-sos1">
+                            <h4>Sampah Organik <br>(komposting)</h4>
+                            <p>Olah sisa dapur menjadi pupuk. Pisahkan sisa sayur, kulit buah, dan daun kering untuk dimasukkan ke wadah komposter sederhana</p>
+                        </div>
+                        <img src="kompos.jpg" alt="gambar kompos sampah organik" class="gambar-solusi">
                     </div>
                     <div class="solusi2">
-                        <h4>Sampah Anorganik <br>(3R & Upcycling)</h4>
-                        <p>Cegah sampah baru dengan bawa tas belanja dan botol sendiri (3R), serta ubah barang bekas menjadi barang berguna (Upcycling)</p>
+                        <div class="des-sos2">
+                            <h4>Sampah Anorganik <br>(3R & Upcycling)</h4>
+                            <p>Cegah sampah baru dengan bawa tas belanja dan botol sendiri (3R), serta ubah barang bekas menjadi barang berguna (Upcycling)</p>
+                        </div>
+                        <img src="daur ulang.jpg" alt="gambar sampah daur ulang" class="gambar-solusi">
                     </div>
+                </div>
+                <div class="solusi-bawah">
                     <div class="solusi3">
-                        <h4>Sampah B3</h4>
-                        <p>Pisahkan baterai, obat kadaluwarsa dan lampu ke wadah tertutup khusus agar tidak meracuni lngkungan.</p>
+                        <div class="des-sos3">
+                            <h4>Sampah B3</h4>
+                            <p>Pisahkan baterai, obat kadaluwarsa dan lampu ke wadah tertutup khusus agar tidak meracuni lngkungan.</p>
+                        </div>
+                        <img src="kumpulan b3.jpg" alt="gambar kumpulan sampah b3" class="gambar-solusi">
                     </div>
                     <div class="solusi4">
-                        <h4>Sampah Residu <br>(Pencegahan dan Sisa)</h4>
-                        <p>Kurangi pemakaian barang sekali pakai. Bungkus rapat sisa residu yang tidak bisa didaur ulang untuk diangkut petugas ke TPA secara aman.</p>
+                        <div class="des-sos4">
+                            <h4>Sampah Residu <br>(Pencegahan dan Sisa)</h4>
+                            <p>Kurangi pemakaian barang sekali pakai. Bungkus rapat sisa residu yang tidak bisa didaur ulang untuk diangkut petugas ke TPA secara aman.</p>
+                        </div>
+                        <img src="kumpulan residu.jpg" alt="gambar kumpulan sampah residu" class="gambar-solusi">
                     </div>
                 </div>
             </div>
         </section>
         <section id="halaman5" class="section5">
-
+            <div id="bagian-atas">
+                <div id="deskripsi-atas">
+                    <h1>Mengenal Peran Komunitas & Fasilitas Sampah</h1>
+                    <p>Pengelolaan sampah dari rumah akan jauh lebih berdampak jika didukung oleh gerakan bersama di lingkungan sekitar kita. Melalui kolaborasi aktif, kita bisa mewujudkan lingkungan yang sehat, bebas sampah, dan berkelanjutan.</p>
+                </div>
+                <div id="img-atas">
+                    <img src="/Alur.jpg.jpeg" alt="">
+                </div>
+            </div>
+            <div id="bagian-bawah">
+                <h1>Operasional TPS3R & Gotong Royong</h1>
+                <div id="card">
+                    <div id="card-kiri">
+                        <div id="deskripsi-cardkiri">
+                            <h1>Apa itu TPS3R??</h1>
+                            <p>TPS3R adalah tempat pengumpulan sampah rumah tangga yang dikelola melalui pemilahan, pengolahan sampah organik menjadi kompos, dan pengumpulan barang daur ulang. Hanya sampah yang tidak dapat diolah yang dikirim ke TPA.</p>
+                        </div>
+                        <div id="image-cardkiri">
+                            <img src="/TPS3RR.jpg.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div id="card-kanan">
+                        <div id="deskripsi-cardkanan">
+                            <h1>Apa itu Gotong Royong??</h1>
+                            <p>Gotong royong merupakan nilai luhur bangsa Indonesia yang diwariskan secara turun-temurun. Gotong royong adalah kegiatan yang dilakukan secara sukarela tanpa mengutamakan kepentingan pribadi. Menurut KBBI, gotong royong berarti bekerja bersama-sama, tolong-menolong, dan bantu-membantu.</p>
+                        </div>
+                        <div id="image-cardkanan">
+                            <img src="/Gotong Royong.jpg.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section id="halaman6" class="section6">
+            <div class="card-section6">
+                <div class="left-card">
+                    <h3>Tujuan Pengembangan</h3>
+                    <p>Website Bijak Sampah hadir sebagai platform edukasi digital yang bertujuan untuk meningkatkan kesadaran dan mendorong perubahan perilaku masyarakat dalam mengelola sampah secara mandiri dari rumah. Melalui panduan praktis pemilahan, edukasi bahaya pencemaran, serta pengenalan fasilitas komunitas seperti Bank Sampah dan TPS3R, website ini menjadi wadah edukasi interaktif guna mewujudkan lingkungan pemukiman yang bersih, sehat, dan berkelanjutan</p>
+                </div>
+                <div class="middle-card">
+                    <h3>Nama Anggota</h3>
+                    <ul>
+                        <li>I Komang Yogi Sai Rama Putra (2515091127)</li>
+                        <li>Gede Alit Putrawan (251509)</li>
+                        <li>Gede Juniarta (2515091102)</li>
+                        <li>Gusti Agung Widhyamerta (2515091085)</li>
+                        <li>Putu Angga Agusta Parama Sandhi(251509)</li>
+                    </ul>
+                </div>
+                <div class="right-card">
+                    <h3>Referensi</h3>
+                    <div id="link-referensi">
+                        <a href="https://kpbu.kemenkeu.go.id/read/1121-1282/umum/kajian-opini-publik/penguatan-pengelolaan-sampah-melalui-pendekatan-reduce-reuse-recycle-3r-menuju-indonesia-bersih">3R</a>
+                        <a href="https://plasticsmartcities.wwf.id/feature/article/bank-sampah-konsep-dan-peran-dalam-pengelolaan-lingkungan">Bank Sampah</a>
+                        <a href="https://jurnal.stiatabalong.ac.id/index.php/JAPB/article/view/1300">TPS3R</a>
+                        <a href="https://ejournal.atmajaya.ac.id/index.php/perkotaan/article/view/306">Komposting</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </body>
 </html>
