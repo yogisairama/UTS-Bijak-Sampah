@@ -1,156 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
-        <title>Bijak Sampah</title>
-        <style>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+    <title>Bijak Sampah</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      body {
+        font-family: "Poppins", sans-serif;
+        color: white;
+        margin: 0;
+      }
+      /*style untuk halaman 1*/
+      .section1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 100vh;
+        padding-left: 70px;
+        background-image:
+          linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+          url("sampah.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-size: 20px;
+      }
 
-            body {
-                font-family: "Poppins", sans-serif;
-                color: white;
-                margin: 0;
-            }
-            /*style untuk halaman 1*/
-            .section1 {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                min-height: 100vh;
-                padding-left: 70px;
-                background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('sampah.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                font-size: 20px;
-            }
+      .judul {
+        max-width: 700px;
+        color: white;
+      }
+      .site-bar a {
+        text-decoration: none;
+        color: black;
+      }
 
+      .site-bar {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: white;
+      }
 
-            .judul {
-                max-width: 700px;
-                color: white;
-            }
-            .site-bar a {
-                text-decoration: none;
-                color: black;
-            }
+      .nav-bar {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        border-bottom: 1px solid black;
+        padding: 20px;
+      }
 
-            .site-bar {
-                position: sticky;
-                top: 0;
-                z-index: 999;
-                background-color: white;
-            }
+      /*style untuk halaman 2*/
+      .section2 {
+        background-color: white;
+        min-height: 100vh;
+      }
 
-            .nav-bar {
-                display: flex;
-                justify-content: center;
-                gap: 100px;
-                border-bottom: 1px solid black;
-                padding: 20px;
+      .judul2 {
+        color: black;
+        max-width: 450px;
+        padding-top: 40px;
+        padding-left: 60px;
+      }
 
-            }
+      .judul2 p {
+        padding-bottom: 40px;
+      }
 
-            /*style untuk halaman 2*/
-            .section2 {
-                background-color: white;
-                min-height: 100vh;
-            }
+      .materi1 {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+      }
 
-            .judul2 {
-                color: black;
-                max-width: 450px;
-                padding-top: 40px;
-                padding-left: 60px;
-            }
+      .materi1 h3 {
+        text-align: left;
+        margin-bottom: 10px;
+      }
 
-            .judul2 p {
-                padding-bottom: 40px;
-            }
+      .materi1 p {
+        text-align: justify;
+        line-height: 1.5;
+      }
 
-            .materi1 {
-                color: black;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                gap: 40px;
-                padding-left: 60px;
-                padding-right: 60px;
-            }
+      .organik,
+      .anorganik,
+      .b3,
+      .residu {
+        max-width: 450px;
+        border-radius: 10px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-bar">
+      <nav aria-label="Navigasi utama" class="nav-bar">
+        <a href="#halaman1" class="brand">Home</a>
+        <a href="#halaman2">Education</a>
+        <a href="#halaman3">Description</a>
+        <a href="#halaman4">Desciption</a>
+        <a href="#halaman5">Description</a>
+      </nav>
+    </header>
 
-            .materi1 h3 {
-                text-align: left;
-                margin-bottom: 10px;
-            }
-
-            .materi1 p {
-                text-align: justify;
-                line-height: 1.5;
-            }
-
-            .organik, .anorganik, .b3, .residu {
-                max-width: 450px;
-                border-radius: 10px;
-                padding: 10px;
-            }
-        </style>
-    </head>
-    <body>
-        <header class="site-bar">
-            <nav aria-label="Navigasi utama" class="nav-bar">
-                <a href="#halaman1" class="brand">Home</a>
-                <a href="#halaman2">Education</a>
-                <a href="#halaman3">Description</a>
-                <a href="#halaman4">Desciption</a>
-                <a href="#halaman5">Description</a>
-            </nav>
-        </header>
-
-        <section id="halaman1" class="section1">
-            <div class="cover">
-                <div class="judul">
-                    <h1>Kelola Sampahmu, Selamatkan Bumimu</h1>
-                    <h3>Satu sampahmu sangat berdampak bagi lingkungan</h3>
-                    <p>Mari mulai perubahan dari rumah dengan mempelajari cara praktis memilah sampah, mengurangi penggunaan plastik, dan mendaur ulang limbah demi menciptakan lingkungan yang lebih bersih dan berkelanjutan.</p>
-                </div>
-            </div>
-        </section>
-        <section id="halaman2" class="section2">
-            <div class="judul2">
-                <h2>Kenali dan Pilah Sampahmu</h2>
-                <p>Memilah sampah dari sumbernya adalah aksi nyata untuk menciptakan lingkungan yang bersih dan sehat. Pelajari empat kategori utama sampah rumah tangga untuk memudahkan proses daur ulang.</p>
-            </div>
-            <div class="materi1">
-                <div class="organik">
-                    <h3>Sampah Organik</h3>
-                    <p>Description: <br>Material yang mudah membusuk dan terurai secara alami oleh mikroorganisme. Contoh spesifiknya adalah sisa sayuran, kulit buah, tulang hewan, dan daun kering yang dialokasikan untuk pengomposan. Waktu terurai sangat cepat dan bisa terurai sempurna secara alami. Sisa makanan umumnya hancur dalam 2 hingga 6 minggu, sementara material yang lebih keras seperti tulang atau ranting membutuhkan waktu beberapa bulan.</p>
-                </div>
-                <div class="anorganik">
-                    <h3>Sampah Anorganik</h3>
-                    <p>Description: <br>Material buatan manusia yang sulit terurai namun memiliki nilai ekonomis dan dapat diproses kembali. Contohnya botol plastik, kertas, kardus, dan kaleng, yang harus dikumpulkan dalam keadaan bersih dan kering. Waktu terurai bisa terurai namun membutuhkan waktu yang sangat lama. Plastik membutuhkan waktu 100 hingga 500 tahun, kaleng aluminium sekitar 50 hingga 200 tahun, sementara material kaca bisa memakan waktu jutaan tahun.</p>
-                </div>
-                <div class="b3">
-                    <h3>Sampah B3 (Bahan Berbayaha dan Beracun)</h3>
-                    <p>Description: <br>Limbah rumah tangga yang mengandung zat kimia berbahaya bagi kesehatan dan lingkungan, seperti baterai bekas, lampu neon, kaleng aerosol pembasmi serangga, dan obat kedaluwarsa. Waktu terurai sebagian besar komponen logam berat dan bahan kimia beracun di dalamnya tidak bisa terurai secara alami. Jika dibuang sembarangan, racun tersebut akan terus menetap dan mencemari tanah serta air tanah selama ratusan tahun.</p>
-                </div>
-                <div class="residu">
-                    <h3>Sampah Residu</h3>
-                    <p>Description: <br>Sampah sisa yang sangat sulit didaur ulang, kotor, atau belum memiliki teknologi pengolahan massal, seperti popok sekali pakai, pembalut, kapas bekas, puntung rokok, dan kemasan saset multilapis. Waktu terurai sangat sulit dan memakan waktu berabad-abad. Popok sekali pakai dan saset plastik membutuhkan waktu 200 hingga 500 tahun untuk hancur di Tempat Pembuangan Akhir (TPA), dan seringkali hanya terpecah menjadi serpihan mikroplastik abadi yang mencemari lingkungan.</p>
-                </div>
-            </div>
-        </section>
-        <section id="halaman3" class="section3">
-                <h2>judul</h2>
-
-        </section>
-        <section id="halaman4" class="section4">
-
-        </section>
-        <section id="halaman5" class="section5">
-
-        </section>
-    </body>
+    <section id="halaman1" class="section1">
+      <div class="cover">
+        <div class="judul">
+          <h1>Kelola Sampahmu, Selamatkan Bumimu</h1>
+          <h3>Satu sampahmu sangat berdampak bagi lingkungan</h3>
+          <p>
+            Mari mulai perubahan dari rumah dengan mempelajari cara praktis
+            memilah sampah, mengurangi penggunaan plastik, dan mendaur ulang
+            limbah demi menciptakan lingkungan yang lebih bersih dan
+            berkelanjutan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="halaman2" class="section2">
+      <div class="judul2">
+        <h2>Kenali dan Pilah Sampahmu</h2>
+        <p>
+          Memilah sampah dari sumbernya adalah aksi nyata untuk menciptakan
+          lingkungan yang bersih dan sehat. Pelajari empat kategori utama sampah
+          rumah tangga untuk memudahkan proses daur ulang.
+        </p>
+      </div>
+      <div class="materi1">
+        <div class="organik">
+          <h3>Sampah Organik</h3>
+          <p>
+            Description: <br />Material yang mudah membusuk dan terurai secara
+            alami oleh mikroorganisme. Contoh spesifiknya adalah sisa sayuran,
+            kulit buah, tulang hewan, dan daun kering yang dialokasikan untuk
+            pengomposan. Waktu terurai sangat cepat dan bisa terurai sempurna
+            secara alami. Sisa makanan umumnya hancur dalam 2 hingga 6 minggu,
+            sementara material yang lebih keras seperti tulang atau ranting
+            membutuhkan waktu beberapa bulan.
+          </p>
+        </div>
+        <div class="anorganik">
+          <h3>Sampah Anorganik</h3>
+          <p>
+            Description: <br />Material buatan manusia yang sulit terurai namun
+            memiliki nilai ekonomis dan dapat diproses kembali. Contohnya botol
+            plastik, kertas, kardus, dan kaleng, yang harus dikumpulkan dalam
+            keadaan bersih dan kering. Waktu terurai bisa terurai namun
+            membutuhkan waktu yang sangat lama. Plastik membutuhkan waktu 100
+            hingga 500 tahun, kaleng aluminium sekitar 50 hingga 200 tahun,
+            sementara material kaca bisa memakan waktu jutaan tahun.
+          </p>
+        </div>
+        <div class="b3">
+          <h3>Sampah B3 (Bahan Berbayaha dan Beracun)</h3>
+          <p>
+            Description: <br />Limbah rumah tangga yang mengandung zat kimia
+            berbahaya bagi kesehatan dan lingkungan, seperti baterai bekas,
+            lampu neon, kaleng aerosol pembasmi serangga, dan obat kedaluwarsa.
+            Waktu terurai sebagian besar komponen logam berat dan bahan kimia
+            beracun di dalamnya tidak bisa terurai secara alami. Jika dibuang
+            sembarangan, racun tersebut akan terus menetap dan mencemari tanah
+            serta air tanah selama ratusan tahun.
+          </p>
+        </div>
+        <div class="residu">
+          <h3>Sampah Residu</h3>
+          <p>
+            Description: <br />Sampah sisa yang sangat sulit didaur ulang,
+            kotor, atau belum memiliki teknologi pengolahan massal, seperti
+            popok sekali pakai, pembalut, kapas bekas, puntung rokok, dan
+            kemasan saset multilapis. Waktu terurai sangat sulit dan memakan
+            waktu berabad-abad. Popok sekali pakai dan saset plastik membutuhkan
+            waktu 200 hingga 500 tahun untuk hancur di Tempat Pembuangan Akhir
+            (TPA), dan seringkali hanya terpecah menjadi serpihan mikroplastik
+            abadi yang mencemari lingkungan.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="halaman3" class="section3">
+      <h2>judul</h2>
+    </section>
+    <section id="halaman4" class="section4"></section>
+    <section id="halaman5" class="section5"></section>
+  </body>
 </html>
