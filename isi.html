@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
@@ -10,14 +12,24 @@
   </head>
   <body>
     <header class="site-bar">
-      <nav aria-label="Navigasi utama" class="nav-bar">
-        <img src="/Photos/Logo Sampah.png" alt="logo" class="logo" />
-        <a href="#halaman1" class="brand">Beranda</a>
-        <a href="#halaman2">Edukasi</a>
-        <a href="#halaman3">Dampak</a>
-        <a href="#halaman4">Solusi</a>
-        <a href="#halaman5">Artikel</a>
-        <a href="#halaman6">Tentang</a>
+      <nav class="nav-bar">
+        <img src="Photos/Logo Sampah.png" alt="logo" class="logo" />
+        <div class="hamburger" id="hamburger-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <div id="icon">
+            <i class="fa-solid fa-x"></i>
+          </div>
+          <div id="menu">
+            <a href="#halaman1" class="brand">Beranda</a>
+            <a href="#halaman2">Edukasi</a>
+            <a href="#halaman3">Dampak</a>
+            <a href="#halaman4">Solusi</a>
+            <a href="#halaman5">Artikel</a>
+            <a href="#halaman6">Tentang</a>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -92,10 +104,10 @@
         </div>
       </div>
       <div id="image-sampah">
-        <img src="/Photos/organik.jpg" alt="sampah organik" />
-        <img src="/Photos/anorganik.jpg" alt="sampah anorganik" />
-        <img src="/Photos/sampah b3.jpg" alt="sampah b3" />
-        <img src="/Photos/residu.jpeg" alt="sampah residu" />
+        <img src="Photos/organik.jpg" alt="sampah organik" />
+        <img src="Photos/anorganik.jpg" alt="sampah anorganik" />
+        <img src="Photos/sampah b3.jpg" alt="sampah b3" />
+        <img src="Photos/residu.jpeg" alt="sampah residu" />
       </div>
     </section>
     <section id="halaman3" class="section3">
@@ -114,10 +126,10 @@
         </div>
         <div class="kanan">
           <div>
-            <img src="/Photos/banjir.jpg" alt="" />
+            <img src="Photos/banjir.jpg" alt="" />
           </div>
           <div>
-            <img src="/Photos/banjir2.jpg" alt="" />
+            <img src="Photos/banjir2.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -163,16 +175,16 @@
         </div>
         <div class="kanan2">
           <div class="tutoryt1">
-            <img src="/Photos/LINK pot.png" alt="" />
+            <img src="Photos/LINK pot.png" alt="" />
             <div id="deskripsiyt1">
-              <h1>Pot Bunga Dari Botol</h1>
+              <h1>Membuat Pot Bunga Dari Botol</h1>
               <a href="https://youtu.be/deR2YjRmOt4?si=fA-NpBXFxnhnpmEI"
                 >Lihat Panduan</a
               >
             </div>
           </div>
           <div class="tutoryt2">
-            <img src="/Photos/Link YT citato.jpeg" alt="" />
+            <img src="Photos/Link YT citato.jpeg" alt="" />
             <div id="deskripsiyt2">
               <h1>Membuat Kotak Pensil Bekas</h1>
               <a href="https://youtu.be/MJd3bo_XRaU?si=UUo9CKdXo1-UhaYW"
@@ -198,7 +210,7 @@
               </p>
             </div>
             <img
-              src="/Photos/kompos.jpg"
+              src="Photos/kompos.jpg"
               alt="gambar kompos sampah organik"
               class="gambar-solusi"
             />
@@ -212,7 +224,7 @@
               </p>
             </div>
             <img
-              src="/Photos/daur ulang.jpg"
+              src="Photos/daur ulang.jpg"
               alt="gambar sampah daur ulang"
               class="gambar-solusi"
             />
@@ -228,7 +240,7 @@
               </p>
             </div>
             <img
-              src="/Photos/kumpulan b3.jpg"
+              src="Photos/kumpulan b3.jpg"
               alt="gambar kumpulan sampah b3"
               class="gambar-solusi"
             />
@@ -243,7 +255,7 @@
               </p>
             </div>
             <img
-              src="/Photos/kumpulan residu.jpg"
+              src="Photos/kumpulan residu.jpg"
               alt="gambar kumpulan sampah residu"
               class="gambar-solusi"
             />
@@ -263,7 +275,7 @@
           </p>
         </div>
         <div id="img-atas">
-          <img src="/Photos/Alur.jpg.jpeg" alt="" />
+          <img src="Photos/Alur.jpg.jpeg" alt="" />
         </div>
       </div>
       <div id="bagian-bawah">
@@ -280,7 +292,7 @@
               </p>
             </div>
             <div id="image-cardkiri">
-              <img src="/Photos/TPS3RR.jpg.jpeg" alt="" />
+              <img src="Photos/TPS3RR.jpg.jpeg" alt="" />
             </div>
           </div>
           <div id="card-kanan">
@@ -295,7 +307,7 @@
               </p>
             </div>
             <div id="image-cardkanan">
-              <img src="/Photos/Gotong Royong.jpg.jpeg" alt="" />
+              <img src="Photos/Gotong Royong.jpg.jpeg" alt="" />
             </div>
           </div>
         </div>
@@ -362,5 +374,6 @@
         </div>
       </div>
     </section>
+    <script src="script.js"></script>
   </body>
 </html>
