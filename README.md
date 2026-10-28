@@ -286,10 +286,9 @@ bijak-sampah/
 
 ## REFERENSI KONTEN DAN SUMBER ASET
 - KPBU Kementerian Keuangan Republik Indonesia: Penguatan Pengelolaan Sampah melalui Pendekatan Reduce, Reuse, Recycle (3R) Menuju Indonesia Bersih. https://kpbu.kemenkeu.go.id/read/1121-1282/umum/kajian-opini-publik/penguatan-pengelolaan-sampah-melalui-pendekatan-reduce-reuse-recycle-3r-menuju-indonesia-bersih
-- WWF Plastic Smart Cities: Bank Sampah: Konsep dan Peran dalam Pengelolaan Lingkungan. 🔗 https://plasticsmartcities.wwf.id/
-- Jurnal Administrasi Publik dan Bisnis (JAPB): Evaluasi Efektivitas Program Pengelolaan Sampah Berbasis Komunitas. 🔗 [suspicious link removed]
-- Jurnal Perkotaan Universitas Katolik Indonesia Atma Jaya: Kajian Implementasi Fasilitas TPS3R dalam Penanganan Residu Perkotaan. 🔗 https://ejournal.atmajaya.ac.id/
-
+- WWF Plastic Smart Cities: Bank Sampah: Konsep dan Peran dalam Pengelolaan Lingkungan. Bank Sampah: https://plasticsmartcities.wwf.id/feature/article/bank-sampah-konsep-dan-peran-dalam-pengelolaan-lingkungan
+- Jurnal EFEKTIVITAS PENGELOLAAN SAMPAH DI TEMPAT PENGOLAHAN SAMPAH 3R (TPS 3R). https://jurnal.stiatabalong.ac.id/index.php/JAPB/article/view/1300
+- Metode Komposting Takakura Untuk Pengolahan Sampah Organik Rumah Tangga. https://ejournal.atmajaya.ac.id/index.php/perkotaan/article/view/306 
 ## REFERENSI ASET MEDIA DAN SOSIAL
 
 
