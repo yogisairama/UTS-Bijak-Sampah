@@ -457,6 +457,7 @@ img {
   flex-direction: column;
   gap: 18px;
   padding: 100px 60px 60px 60px;
+  height: 100vh;
 }
 
 .section5 #bagian-atas {
@@ -534,12 +535,14 @@ img {
   color: white;
   padding: 100px 60px 50px 60px;
   background-color: var(--footer);
+  height: 100vh;
 }
 
 .card-section6 {
   display: flex;
   justify-content: space-between;
   color: white;
+  font-size: 20px;
 }
 
 .left-card,
@@ -580,6 +583,10 @@ Ul {
 
   .nav-menu {
     gap: 25px;
+  }
+
+  .section1 {
+    height: 100vh;
   }
 
   #icon {
@@ -764,6 +771,7 @@ Ul {
   /* Section 5 - Komunitas & TPS3R */
   .section5 {
     padding: 60px 30px;
+    height: 155vh;
   }
 
   .section5 #bagian-atas {
@@ -806,6 +814,7 @@ Ul {
   /* Section 6 - Tentang & Kontak */
   .section6 {
     padding: 60px 30px;
+    font-size: 18px;
   }
 
   .card-section6 {
@@ -1145,6 +1154,7 @@ Ul {
   .section5 {
     padding: 50px 16px;
     gap: 16px;
+    height: 148vh;
   }
 
   #bagian-atas #deskripsi-atas h1 {
@@ -1252,5 +1262,9 @@ Ul {
 
   .judul p {
     font-size: 12px;
+  }
+
+  .section5 {
+    height: 160vh;
   }
 }
