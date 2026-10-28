@@ -1,19 +1,29 @@
-#  Bijak Sampah - Website Edukasi Pengelolaan Sampah
+# Bijak Sampah - Website Edukasi Pengelolaan Sampah
 
 > **Proyek Ujian Tengah Semester (UTS) Pemrograman Web**  
 > Website Edukasi Masyarakat Bertema SDGs (SDG 11 & SDG 12)
 
 ---
 
-##  Anggota Kelompok & Pembagian Tugas
+## Anggota Kelompok & Pembagian Tugas
 
+<<<<<<< HEAD
+|  No   | Nama Anggota                       |    NIM     | Pembagian Tugas / Kontribusi                                                                                     |
+| :---: | :--------------------------------- | :--------: | :--------------------------------------------------------------------------------------------------------------- |
+| **1** | **I Komang Yogi Sai Rama Putra**   | 2515091127 | membuat halaman Edukasi dan Dampak                                                                               |
+| **2** | **Gede Alit Putrawan**             | 2515091081 | membuat halaman Artikel dan Readme                                                                               |
+| **3** | **Gede Juniarta**                  | 2515091102 | Membuat Integrasi JavaScript (`script.js`) dan Penerapan _Responsive Web Design_ (Media Queries Tablet & Mobile) |
+| **4** | **I Gusti Agung Widhyamerta**      | 2515091085 | membuat halaman Beranda dan tentang                                                                              |
+| **5** | **Putu Angga Agusta Parama Sandi** | 2515091115 | Membuat Halaman Solusi dan Readme                                                                                |
+=======
 | No | Nama Anggota | NIM | Pembagian Tugas / Kontribusi |
 | :---: | :--- | :---: | :--- |
-| **1** | **I Komang Yogi Sai Rama Putra** | 2515091127 | Perancangan Struktur Semantik HTML5, Penataan Beranda & Edukasi |
-| **2** | **Gede Alit Putrawan** | 2515091081 | Penyusunan Layout CSS (Flexbox/Grid) & Skema Warna |
-| **3** | **Gede Juniarta** | 2515091102 | Penerapan *Responsive Web Design* (Media Queries Tablet & Mobile) |
-| **4** | **Gusti Agung Widhyamerta** | 2515091085 | Pembuatan Fitur Interaktif Navigasi & Integrasi JavaScript (`script.js`) |
-| **5** | **Putu Angga Agusta Parama Sandhi** | 2515091115 | Riset Konten Edukasi SDGs, Pengumpulan Aset & Dokumentasi `README.md` |
+| **1** | **I Komang Yogi Sai Rama Putra** | 2515091127 | membuat halaman Edukasi dan Dampak|
+| **2** | **Gede Alit Putrawan** | 2515091081 | membuat halaman Artikel dan Readme |
+| **3** | **Gede Juniarta** | 2515091102 | Membuat  Integrasi JavaScript (`script.js`) dan Penerapan *Responsive Web Design* (Media Queries Tablet & Mobile) |
+| **4** | **I Gusti Agung Widhyamerta** | 2515091085 | membuat halaman Beranda dan tentang |
+| **5** | **Putu Angga Agusta Parama Sandi** | 2515091115 | Membuat Halaman Solusi dan Readme |
+>>>>>>> 81fe1ce62604dba0119ec4d0e102328c9975f5a2
 
 ---
 
@@ -21,16 +31,16 @@
 
 - **Tema Utama SDGs**: `SDG 11` (Kota dan Komunitas yang Berkelanjutan) dan `SDG 12` (Konsumsi dan Produksi yang Bertanggung Jawab).
 - **Sasaran Pengguna**: Masyarakat umum, khususnya skala rumah tangga, pelajar, dan komunitas peduli lingkungan.
-- **Tujuan**: Meningkatkan kesadaran masyarakat untuk memilah sampah dari rumah, mengurangi penggunaan limbah plastik sekali pakai, mengolah sampah organik secara mandiri, serta memberikan pemahaman mengenai fasilitas pengolahan sampah seperti TPS3R dan Bank Sampah.
+- **Tujuan**: Website Bijak Sampah hadir sebagai platform edukasi digital yang bertujuan untuk meningkatkan kesadaran dan mendorong perubahan perilaku masyarakat dalam mengelola sampah secara mandiri dari rumah. Melalui panduan praktis pemilahan, edukasi bahaya pencemaran, serta pengenalan fasilitas komunitas seperti Bank Sampah dan TPS3R, website ini menjadi wadah edukasi interaktif guna mewujudkan lingkungan pemukiman yang bersih, sehat, dan berkelanjutan
 - **Manfaat**: Membantu mengurangi volume sampah yang bermuara di Tempat Pemrosesan Akhir (TPA), mencegah banjir, serta mengurangi pencemaran tanah dan air akibat limbah berbahaya.
 
 ---
 
 ## Halaman Website
 
-Website **Bijak Sampah** dirancang secara responsif dengan menyajikan 6 bagian utama yang terinterkoneksi secara mulus melalui navigasi *smooth scrolling*:
+Website **Bijak Sampah** dirancang secara responsif dengan menyajikan 6 bagian utama yang terinterkoneksi secara mulus melalui navigasi _smooth scrolling_:
 
-1. **Beranda (`#halaman1`)**: Menampilkan *Hero Section* dengan latar belakang visual menarik, judul utama, slogan, dan pengantar pesan pengelolaan sampah.
+1. **Beranda (`#halaman1`)**: Menampilkan _Hero Section_ dengan latar belakang visual menarik, judul utama, slogan, dan pengantar pesan pengelolaan sampah.
 2. **Edukasi (`#halaman2`)**: Menjelaskan 4 kategori utama sampah rumah tangga (Organik, Anorganik, B3, dan Residu) beserta deskripsi, contoh, dan estimasi waktu terurai.
 3. **Dampak (`#halaman3`)**: Menggambarkan bahaya nyata jika sampah tidak dikelola, seperti banjir, sarang penyakit, pencemaran tanah, dan kerusakan ekosistem laut.
 4. **Solusi (`#halaman4`)**: Menyediakan panduan praktis pengelolaan mandiri melalui metode Komposting, 3R & Upcycling, penanganan B3, residu, dan link tutorial daur ulang.
@@ -42,10 +52,10 @@ Website **Bijak Sampah** dirancang secara responsif dengan menyajikan 6 bagian u
 ## Teknologi yang Digunakan
 
 - **HTML5**: Menggunakan tag semantik modern (`<header>`, `<nav>`, `<section>`, `<article>`, `<main>`, `<footer>`).
-- **CSS3**: Menggunakan *CSS Custom Properties*, *Flexbox*, *CSS Grid*, dan *Media Queries*.
+- **CSS3**: Menggunakan _CSS Custom Properties_, _Flexbox_, _CSS Grid_, dan _Media Queries_.
 - **FontAwesome (v6.7.2)**: Penyedia ikon vektor responsif untuk antarmuka pengguna (UI).
-- **Google Fonts**: Menggunakan *font family* `'Poppins'` untuk keterbacaan tipografi.
-- **JavaScript (Vanilla JS)**: Mengontrol interaktivitas menu navigasi *hamburger* pada perangkat *mobile*.
+- **Google Fonts**: Menggunakan _font family_ `'Poppins'` untuk keterbacaan tipografi.
+- **JavaScript (Vanilla JS)**: Mengontrol interaktivitas menu navigasi _hamburger_ pada perangkat _mobile_.
 
 ---
 
@@ -53,7 +63,7 @@ Website **Bijak Sampah** dirancang secara responsif dengan menyajikan 6 bagian u
 
 ### 1. Navigasi
 
-Navbar memakai tag `<nav>` dan berada di bagian atas header. Tombol *hamburger* disiapkan untuk tampilan *mobile*, dan navigasi berpindah section menggunakan *anchor link* (`#halamanX`).
+Navbar memakai tag `<nav>` dan berada di bagian atas header. Tombol _hamburger_ disiapkan untuk tampilan _mobile_, dan navigasi berpindah section menggunakan _anchor link_ (`#halamanX`).
 
 ```html
 <header class="site-bar">
@@ -78,16 +88,19 @@ Navbar memakai tag `<nav>` dan berada di bagian atas header. Tombol *hamburger* 
   </nav>
 </header>
 ```
+
 **FUNGSI**
+
 - `<a href="#halamanX">` memindahkan pengunjung langsung ke bagian section tertentu tanpa perlu reload, memanfaatkan smooth scroll.
 
 - `<div class="hamburger" id="hamburger-btn">` berfungsi sebagai tombol pembuka menu saat website dibuka dari layar HP/smartphone.
 
 - `<div id="icon">` berisi ikon silang (fa-xmark) yang digunakan untuk menutup kembali menu mobile yang sedang terbuka.
 
-
 ### 2. STICKY NAVBAR
+
 Navbar dikunci di bagian atas halaman menggunakan CSS agar tetap terlihat saat pengguna menggeser (scroll) layar ke bawah.
+
 ```CSS
 .site-bar {
   position: sticky;
@@ -98,16 +111,19 @@ Navbar dikunci di bagian atas halaman menggunakan CSS agar tetap terlihat saat p
   width: 100%;
 }
 ```
+
 ##FUNGSI##
+
 - `position: sticky` dan `top: 0` membuat navbar tetap melayang dan menempel di bagian paling atas layar saat di-scroll.
 
 - `z-index: 999` menjaganya berada di lapisan paling atas agar tidak tertutup oleh elemen gambar atau teks lain.
 
 - `box-shadow` memberikan bayangan lembut di bawah navbar sebagai pemisah visual dengan konten halaman.
 
-
 ## 3. Efek Garis Meluncur Saat Menu Di-hove
+
 Garis indikator di bawah teks menu navigasi dibuat menggunakan pseudo-element CSS `::after` agar memberikan respons visual yang halus saat kursor mengarah ke menu.
+
 ```CSS
 .site-bar a {
   position: relative;
@@ -118,7 +134,7 @@ Garis indikator di bawah teks menu navigasi dibuat menggunakan pseudo-element CS
 }
 
 .site-bar a::after {
-  content: "";    
+  content: "";
   position: absolute;
   left: 0;
   bottom: -4px;
@@ -134,14 +150,17 @@ Garis indikator di bawah teks menu navigasi dibuat menggunakan pseudo-element CS
   transform: scaleX(1);
 }
 ```
+
 ##FUNGSI##
+
 - `position: relative` dipasang pada tag `<a>` sebagai acuan posisi elemen garis.
 - Garis dibuat dari pseudo-element `::after` yang awalnya berukuran nol ( `scaleX(0)` ).
--Saat di-hover, garis membesar meluncur dari kiri ke kanan ( `scaleX(1)` ). `transition` membuat gerakannya halus.
-
+  -Saat di-hover, garis membesar meluncur dari kiri ke kanan ( `scaleX(1)` ). `transition` membuat gerakannya halus.
 
 ## 4. Layout Galeri Foto Kategori Sampah
+
 Bagian Edukasi (`#halaman2`) menampilkan 4 foto kategori sampah (Organik, Anorganik, B3, Residu) secara sejajar menggunakan CSS Grid.
+
 ```CSS
 #image-sampah {
   display: grid;
@@ -157,14 +176,17 @@ Bagian Edukasi (`#halaman2`) menampilkan 4 foto kategori sampah (Organik, Anorga
   object-fit: cover;
 }
 ```
+
 ##FUNGSI:##
+
 - `display: grid` membagi kontainer foto menjadi grid dua dimensi.
 - `grid-template-columns: repeat(4, 1fr)` membagi area secara otomatis menjadi 4 kolom sejajar berukuran sama.
 - `object-fit: cover` memastikan gambar terpotong rapi menyesuaikan ukuran tanpa merusak aspek rasio atau membuat gambar gepeng.
 
-
 ## 5. Layout Kartu Solusi
+
 Kartu pada bagian Solusi (`#halaman4` ) menggunakan Flexbox untuk menata teks dan gambar agar berjejer secara rapi dalam satu baris.
+
 ```CSS
 .solusi1, .solusi2, .solusi3, .solusi4 {
   display: flex;
@@ -178,14 +200,17 @@ Kartu pada bagian Solusi (`#halaman4` ) menggunakan Flexbox untuk menata teks da
   padding: 20px;
 }
 ```
+
 ##FUNGSI:##
+
 - `display: flex` merapikan teks deskripsi dan gambar agar berjejer secara horizontal dalam satu kartu.
 - `flex: 1` membagi lebar setiap kartu secara merata di dalam kontainer utama.
 - `align-items: center` memposisikan teks dan gambar secara presisi di tengah secara vertikal.
 
+## 6. Adaptasi Layar Mobile
 
-## 6. Adaptasi Layar Mobile 
 Aturan `@media query` digunakan untuk menyesuaikan tampilan halaman ketika dibuka dari layar smartphone ($\le 768\text{px}$).
+
 ```CSS
 @media screen and (max-width: 768px) {
   .materi1 {
@@ -213,16 +238,18 @@ Aturan `@media query` digunakan untuk menyesuaikan tampilan halaman ketika dibuk
   }
 }
 ```
+
 ##FUNGSI:##
+
 - `@media screen and (max-width: 768px)` mendeteksi jika lebar layar browser berada pada ukuran smartphone.
 
 - `grid-template-columns: 1fr` mengubah tampilan 4 kolom desktop menjadi 1 kolom vertikal agar teks nyaman dibaca tanpa horizontal scroll.
 
 - `.nav-menu.active` mengubah menu navigasi menjadi layar penuh (fullscreen overlay) saat tombol hamburger diklik.
 
-
 ## 7. Interaktivitas Menu Mobile
-```JavaScript 
+
+```JavaScript
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerBtn = document.getElementById("hamburger-btn");
   const navMenu = document.getElementById("nav-menu");
@@ -248,56 +275,56 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 ```
+
 ##FUNGSI:##
+
 - `DOMContentLoaded` memastikan skrip dieksekusi setelah seluruh dokumen HTML selesai dimuat.
 - `classList.add("active")` memunculkan menu navigasi layar penuh saat ikon hamburger diklik.
 - `classList.remove("active")` menyembunyikan menu kembali saat ikon 'X' atau salah satu tautan menu diklik.
 
 ## STRUKTUR FOLDER PROYEK
+
 ```
-bijak-sampah/
-├── index.html              # Halaman utama aplikasi (berisi 6 section semantik)
-├── style.css               # File CSS utama (layouting, variabel, media queries)
-├── script.js              # Script pendukung interaktivitas navigasi mobile
+text
+pemweb/
+├── Photos/                 # Direktori penyimpan aset gambar & ilustrasi
+│   ├── Alur.jpg.jpeg       # Infografis alur pengelolaan sampah
+│   ├── anorganik.jpg       # Gambar kategori sampah anorganik
+│   ├── banjir.jpg          # Visual dampak banjir 1
+│   ├── banjir2.jpg         # Visual dampak banjir 2
+│   ├── Covid.jpg           # Visual dampak sarang penyakit
+│   ├── daur ulang.jpg      # Gambar solusi 3R & upcycling
+│   ├── Gotong Royong.jpg.jpeg # Foto kegiatan gotong royong masyarakat
+│   ├── kompos.jpg          # Gambar solusi pengomposan
+│   ├── kumpulan b3.jpg     # Gambar penanganan sampah B3
+│   ├── kumpulan residu.jpg # Gambar penanganan sampah residu
+│   ├── LINK pot.png        # Thumbnail tutorial daur ulang pot
+│   ├── Link YT citato.jpeg # Thumbnail tutorial kotak pensil
+│   ├── Logo Sampah.png     # Logo utama pada navbar
+│   ├── organik.jpg         # Gambar kategori sampah organik
+│   ├── pencemaran air.jpg  # Visual dampak kerusakan ekosistem
+│   ├── pencemaran tanah.jpg# Visual dampak pencemaran tanah
+│   ├── residu.jpeg         # Gambar kategori sampah residu
+│   ├── sampah b3.jpg       # Gambar kategori sampah B3
+│   ├── sampah.jpg          # Foto latar belakang Hero Section
+│   └── TPS3RR.jpg.jpeg     # Foto operasional TPS3R
+├── artikel.html            # Halaman artikel & edukasi fasilitas TPS3R
+├── beranda.html            # Halaman utama (Hero section & pengantar)
+├── edukasi.html            # Halaman materi pemilahan jenis sampah
 ├── README.md               # Dokumentasi lengkap proyek UTS
-└── Photos/                 # Direktori penyimpan aset gambar & ilustrasi
-    ├── Logo Sampah.png     # Logo utama pada navbar
-    ├── sampah.jpg          # Foto latar belakang Hero Section (Section 1)
-    ├── organik.jpg         # Gambar kategori sampah organik
-    ├── anorganik.jpg       # Gambar kategori sampah anorganik
-    ├── sampah b3.jpg       # Gambar kategori sampah B3
-    ├── residu.jpeg         # Gambar kategori sampah residu
-    ├── banjir.jpg          # Visual dampak banjir 1
-    ├── banjir2.jpg         # Visual dampak banjir 2
-    ├── Covid.jpg           # Visual dampak sarang penyakit
-    ├── pencemaran tanah.jpg# Visual dampak pencemaran tanah
-    ├── pencemaran air.jpg  # Visual dampak kerusakan ekosistem
-    ├── LINK pot.png        # Thumbnail tutorial daur ulang pot
-    ├── Link YT citato.jpeg # Thumbnail tutorial kotak pensil
-    ├── kompos.jpg          # Gambar solusi pengomposan
-    ├── daur ulang.jpg      # Gambar solusi 3R & upcycling
-    ├── kumpulan b3.jpg     # Gambar penanganan sampah B3
-    ├── kumpulan residu.jpg # Gambar penanganan sampah residu
-    ├── Alur.jpg.jpeg       # Infografis alur pengelolaan sampah
-    ├── TPS3RR.jpg.jpeg     # Foto operasional TPS3R
-    └── Gotong Royong.jpg.jpeg # Foto kegiatan gotong royong masyarakat
+├── script.js              # Script pendukung interaktivitas navigasi mobile
+├── solusi.html             # Halaman panduan & solusi pengelolaan sampah
+├── style.css               # File CSS utama (layouting, variabel, media queries)
+└── tentang.html            # Halaman tentang proyek, anggota & referensi
 ```
+
 ## ALAMAT WEBSITE REPOSTORY
 
 ## REFERENSI KONTEN DAN SUMBER ASET
+
 - KPBU Kementerian Keuangan Republik Indonesia: Penguatan Pengelolaan Sampah melalui Pendekatan Reduce, Reuse, Recycle (3R) Menuju Indonesia Bersih. https://kpbu.kemenkeu.go.id/read/1121-1282/umum/kajian-opini-publik/penguatan-pengelolaan-sampah-melalui-pendekatan-reduce-reuse-recycle-3r-menuju-indonesia-bersih
 - WWF Plastic Smart Cities: Bank Sampah: Konsep dan Peran dalam Pengelolaan Lingkungan. Bank Sampah: https://plasticsmartcities.wwf.id/feature/article/bank-sampah-konsep-dan-peran-dalam-pengelolaan-lingkungan
 - Jurnal EFEKTIVITAS PENGELOLAAN SAMPAH DI TEMPAT PENGOLAHAN SAMPAH 3R (TPS 3R). https://jurnal.stiatabalong.ac.id/index.php/JAPB/article/view/1300
-- Metode Komposting Takakura Untuk Pengolahan Sampah Organik Rumah Tangga. https://ejournal.atmajaya.ac.id/index.php/perkotaan/article/view/306 
+- Metode Komposting Takakura Untuk Pengolahan Sampah Organik Rumah Tangga. https://ejournal.atmajaya.ac.id/index.php/perkotaan/article/view/306
+
 ## REFERENSI ASET MEDIA DAN SOSIAL
-
-
-
-
-
-
-
-
-
-
-
