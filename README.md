@@ -184,7 +184,7 @@ Kartu pada bagian Solusi (`#halaman4` ) menggunakan Flexbox untuk menata teks da
 - `align-items: center` memposisikan teks dan gambar secara presisi di tengah secara vertikal.
 
 
-##6. Adaptasi Layar Mobile 
+## 6. Adaptasi Layar Mobile 
 Aturan `@media query` digunakan untuk menyesuaikan tampilan halaman ketika dibuka dari layar smartphone ($\le 768\text{px}$).
 ```CSS
 @media screen and (max-width: 768px) {
@@ -221,7 +221,7 @@ Aturan `@media query` digunakan untuk menyesuaikan tampilan halaman ketika dibuk
 - `.nav-menu.active` mengubah menu navigasi menjadi layar penuh (fullscreen overlay) saat tombol hamburger diklik.
 
 
-##7. Interaktivitas Menu Mobile
+## 7. Interaktivitas Menu Mobile
 ```JavaScript 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerBtn = document.getElementById("hamburger-btn");
