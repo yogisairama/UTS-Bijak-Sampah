@@ -217,6 +217,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  min-height: 100vh;
 }
 
 .halaman-atas {
@@ -317,6 +318,7 @@ img {
   gap: 25px;
   color: var(--text-green);
   padding: 100px 60px 50px 60px;
+  min-height: 100vh;
 }
 
 .atas {
@@ -457,7 +459,7 @@ img {
   flex-direction: column;
   gap: 18px;
   padding: 100px 60px 60px 60px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .section5 #bagian-atas {
@@ -1154,7 +1156,7 @@ Ul {
   .section5 {
     padding: 50px 16px;
     gap: 16px;
-    height: 148vh;
+    height: auto;
   }
 
   #bagian-atas #deskripsi-atas h1 {
@@ -1262,9 +1264,5 @@ Ul {
 
   .judul p {
     font-size: 12px;
-  }
-
-  .section5 {
-    height: 160vh;
   }
 }
