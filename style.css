@@ -537,7 +537,7 @@ img {
   color: white;
   padding: 100px 60px 50px 60px;
   background-color: var(--footer);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card-section6 {
@@ -773,7 +773,7 @@ Ul {
   /* Section 5 - Komunitas & TPS3R */
   .section5 {
     padding: 60px 30px;
-    height: 155vh;
+    min-height: 100vh;
   }
 
   .section5 #bagian-atas {
