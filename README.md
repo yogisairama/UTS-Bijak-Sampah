@@ -7,7 +7,6 @@
 
 ## Anggota Kelompok & Pembagian Tugas
 
-<<<<<<< HEAD
 |  No   | Nama Anggota                       |    NIM     | Pembagian Tugas / Kontribusi                                                                                     |
 | :---: | :--------------------------------- | :--------: | :--------------------------------------------------------------------------------------------------------------- |
 | **1** | **I Komang Yogi Sai Rama Putra**   | 2515091127 | membuat halaman Edukasi dan Dampak                                                                               |
@@ -15,15 +14,6 @@
 | **3** | **Gede Juniarta**                  | 2515091102 | Membuat Integrasi JavaScript (`script.js`) dan Penerapan _Responsive Web Design_ (Media Queries Tablet & Mobile) |
 | **4** | **I Gusti Agung Widhyamerta**      | 2515091085 | membuat halaman Beranda dan tentang                                                                              |
 | **5** | **Putu Angga Agusta Parama Sandi** | 2515091115 | Membuat Halaman Solusi dan Readme                                                                                |
-=======
-| No | Nama Anggota | NIM | Pembagian Tugas / Kontribusi |
-| :---: | :--- | :---: | :--- |
-| **1** | **I Komang Yogi Sai Rama Putra** | 2515091127 | membuat halaman Edukasi dan Dampak|
-| **2** | **Gede Alit Putrawan** | 2515091081 | membuat halaman Artikel dan Readme |
-| **3** | **Gede Juniarta** | 2515091102 | Membuat  Integrasi JavaScript (`script.js`) dan Penerapan *Responsive Web Design* (Media Queries Tablet & Mobile) |
-| **4** | **I Gusti Agung Widhyamerta** | 2515091085 | membuat halaman Beranda dan tentang |
-| **5** | **Putu Angga Agusta Parama Sandi** | 2515091115 | Membuat Halaman Solusi dan Readme |
->>>>>>> 81fe1ce62604dba0119ec4d0e102328c9975f5a2
 
 ---
 
