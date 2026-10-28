@@ -9,11 +9,11 @@
 
 | No | Nama Anggota | NIM | Pembagian Tugas / Kontribusi |
 | :---: | :--- | :---: | :--- |
-| **1** | **I Komang Yogi Sai Rama Putra** | 2515091127 | Perancangan Struktur Semantik HTML5, Penataan Beranda & Edukasi |
-| **2** | **Gede Alit Putrawan** | 2515091081 | Penyusunan Layout CSS (Flexbox/Grid) & Skema Warna |
-| **3** | **Gede Juniarta** | 2515091102 | Penerapan *Responsive Web Design* (Media Queries Tablet & Mobile) |
-| **4** | **Gusti Agung Widhyamerta** | 2515091085 | Pembuatan Fitur Interaktif Navigasi & Integrasi JavaScript (`script.js`) |
-| **5** | **Putu Angga Agusta Parama Sandhi** | 2515091115 | Riset Konten Edukasi SDGs, Pengumpulan Aset & Dokumentasi `README.md` |
+| **1** | **I Komang Yogi Sai Rama Putra** | 2515091127 | membuat halaman Edukasi dan Dampak|
+| **2** | **Gede Alit Putrawan** | 2515091081 | membuat halaman Artikel dan Readme |
+| **3** | **Gede Juniarta** | 2515091102 | Membuat  Integrasi JavaScript (`script.js`) dan Penerapan *Responsive Web Design* (Media Queries Tablet & Mobile) |
+| **4** | **I Gusti Agung Widhyamerta** | 2515091085 | membuat halaman Beranda dan tentang |
+| **5** | **Putu Angga Agusta Parama Sandi** | 2515091115 | Membuat Halaman Solusi dan Readme |
 
 ---
 
@@ -21,7 +21,7 @@
 
 - **Tema Utama SDGs**: `SDG 11` (Kota dan Komunitas yang Berkelanjutan) dan `SDG 12` (Konsumsi dan Produksi yang Bertanggung Jawab).
 - **Sasaran Pengguna**: Masyarakat umum, khususnya skala rumah tangga, pelajar, dan komunitas peduli lingkungan.
-- **Tujuan**: Meningkatkan kesadaran masyarakat untuk memilah sampah dari rumah, mengurangi penggunaan limbah plastik sekali pakai, mengolah sampah organik secara mandiri, serta memberikan pemahaman mengenai fasilitas pengolahan sampah seperti TPS3R dan Bank Sampah.
+- **Tujuan**: Website Bijak Sampah hadir sebagai platform edukasi digital yang bertujuan untuk meningkatkan kesadaran dan mendorong perubahan perilaku masyarakat dalam mengelola sampah secara mandiri dari rumah. Melalui panduan praktis pemilahan, edukasi bahaya pencemaran, serta pengenalan fasilitas komunitas seperti Bank Sampah dan TPS3R, website ini menjadi wadah edukasi interaktif guna mewujudkan lingkungan pemukiman yang bersih, sehat, dan berkelanjutan
 - **Manfaat**: Membantu mengurangi volume sampah yang bermuara di Tempat Pemrosesan Akhir (TPA), mencegah banjir, serta mengurangi pencemaran tanah dan air akibat limbah berbahaya.
 
 ---
